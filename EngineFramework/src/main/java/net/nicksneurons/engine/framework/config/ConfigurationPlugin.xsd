@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" targetNamespace="https://nicksnuerons.net/engine" xmlns:tns="https://nicksnuerons.net/engine" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="PluginInfo" type="tns:PluginInfo"/>
+
+  <xs:complexType name="PluginInfo">
+    <xs:sequence/>
+    <xs:attribute name="author" type="xs:string"/>
+    <xs:attribute name="binaryName" type="xs:string" use="required"/>
+    <xs:attribute name="pluginName" type="xs:string"/>
+  </xs:complexType>
+</xs:schema>
+
